@@ -1,1 +1,21 @@
-# placeholder
+# Files created when the app is built
+# These can be generated again, so we do not save them in Git
+/build/
+/dist/
+/target/
+
+# Downloaded libraries and dependencies
+# Each developer installs these locally
+/node_modules/
+/vendor/
+
+# Local environment files
+# These may contain personal or sensitive values
+.env
+.env.*
+local.config.*
+
+# Files created by the operating system
+# These are not related to the application code
+.DS_Store
+Thumbs.db
